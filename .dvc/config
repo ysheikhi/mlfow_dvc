@@ -1,6 +1,9 @@
 [core]
-    remote = dvc_gdrive
+    remote = dvc_remote1
 ['remote "dvc_remote"']
     url = /tmp/dvc_storage
+    verify = true
 ['remote "dvc_gdrive"']
+    url = gdrive://11h1YGaQTplosdkckjvRx7nM6e6jHPzV1
+['remote "dvc_remote1"']
     url = gdrive://11h1YGaQTplosdkckjvRx7nM6e6jHPzV1
